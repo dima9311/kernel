@@ -27,6 +27,7 @@ $this->title = 'Welcome to Kernel';
    
 	
     <div class="body-content">
+	  <div class='container-fluid'>
 	
         <div class="row log-reg"> 
             <center>
@@ -54,6 +55,6 @@ $this->title = 'Welcome to Kernel';
 			</center>
 		</div> <!--class="log-reg" -->
         
-
+     </div>
     </div>
 </div>
