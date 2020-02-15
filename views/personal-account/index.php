@@ -55,7 +55,7 @@ use yii\helpers\Json;
 	   
 	       <div class="col-sm-2 col-xs-6  mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-truck" style="font-size:6.5em;"></i>';	
+                $image = '<i class="fa fa-truck fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Вiдвантажити</p><br>", ["/invoice-load-out/load-out" ] , $options = ["title" => "Load out",]) . 
 		            "</div>"; 
@@ -64,7 +64,7 @@ use yii\helpers\Json;
 	   
 	       <div class="col-sm-2 col-xs-6 mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-balance-scale" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-balance-scale fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX lavender'>" .
 			        Html::a( $image ."<p>Переоформити</p><br>" , ["/transfer-rights/transfer-right" ], $options = ["title" => "transfer rights",]) . 
 		            "</div>";
@@ -73,7 +73,7 @@ use yii\helpers\Json;
 			
 			<div class="col-sm-2 col-xs-6  mobile-padding badge1 bb" data-badge="">
                 <?php		
-                $image = '<i class="fa fa-envelope-o" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-envelope-o fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Повiдомлення</p><br>" , ["/messages/show-messages" ], $options = ["title" => "messages",]) . 
 		            "</div>";
@@ -83,7 +83,7 @@ use yii\helpers\Json;
 	        
 			 <div class="col-sm-2 col-xs-6 mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-area-chart" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-area-chart fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Історія</p><br>" , ["/transactions/mytransations"], $options = ["title" => "History",]) . 
 		            "</div>";
@@ -92,7 +92,7 @@ use yii\helpers\Json;
 			
 			<div class="col-sm-2 col-xs-6 mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-comments-o" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-comments-o fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Довідка</p><br>" , ["#"] , $options = ["title" => "more  info",]) . 
 		            "</div>";

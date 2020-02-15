@@ -36,7 +36,7 @@ $this->title = 'Welcome to Kernel';
 		    <!-- Login -->
 		    <div class="col-sm-2 col-xs-6">
 			<?php
-			    $image = '<i class="fa fa-address-card-o" style="font-size:96px"></i>';	
+			    $image = '<i class="fa fa-address-card-o fa-5x"></i>';	//<!-- 7em -->
 				 echo "<div class='subfolder border shadowX lavender'>" .
 			             Html::a( $image ."<p>Sign in</p><br>" , ["/site/login"], $options = ["title" => "Sign in",]) . 
 				      "</div>";
@@ -46,7 +46,7 @@ $this->title = 'Welcome to Kernel';
 			<!-- Registration -->
 			<div class="col-sm-2 col-xs-6">
 			<?php
-			    $image = '<i class="fa fa-user-plus" style="font-size:96px"></i>';	
+			    $image = '<i class="fa fa-user-plus fa-5x"></i>';	
 				 echo "<div class='subfolder border shadowX lavender'>" .
 			             Html::a( $image ."<p>Sign up</p><br>" , ["/site/signup"] , $options = ["title" => "Sign Up",]) . 
 				      "</div>";

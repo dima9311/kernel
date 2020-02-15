@@ -84,7 +84,7 @@ use yii\helpers\Json;
 	   
 	       <div class="col-sm-2 col-xs-6 mobile-padding badge1 bb " data-badge=""> <!-- badge -->
                 <?php		
-                $image = '<i class="fa fa-address-card-o" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-address-card-o fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Запит на реєстрацію</p><br>" , ["/admin/admin-x/users-registration-requests"   ], $options = ["title" => "Sign up requests",]) . 
 		            "</div>"; 
@@ -93,7 +93,7 @@ use yii\helpers\Json;
 	   
 	         <div class="col-sm-2 col-xs-6 mobile-padding badge1 bb" data-badge="">
                 <?php		
-                $image = '<i class="fa fa-truck" style="font-size:96px"></i>';	   
+                $image = '<i class="fa fa-truck fa-5x"></i>';	   
                 echo "<div class='subfolder border shadowX lavender'>" .
 			        Html::a( $image ."<p>Запит вiдвантаження</p><br>" , ["/admin/invoice-load-out/index" ] , $options = ["title" => "Freight requests",]) . 
 		            "</div>";
@@ -104,16 +104,16 @@ use yii\helpers\Json;
 			
 			 <div class="col-sm-2 col-xs-6 mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-automobile" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-automobile fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
-			        Html::a( $image ."<p>Користувачі</p><br>" , ["/admin/view-all-users/index"] , $options = ["title" => "View all users",]) . 
+			        Html::a( $image ."<p> Користувачі (iнфо)  </p><br>" , ["/admin/view-all-users/index"] , $options = ["title" => "View all users",]) . 
 		            "</div>";
                  ?>
             </div>
 			
 			<div class="col-sm-2 col-xs-6 mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-book" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-book fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Нова накладна</p><br>" , ["/admin/invoice-load-in/create",] , $options = ["title" => "New invoice",]) . 
 		            "</div>";
@@ -122,7 +122,7 @@ use yii\helpers\Json;
 			
 			<div class="col-sm-2 col-xs-6 mobile-padding">
                 <?php		
-                $image = '<i class="fa fa-gg" style="font-size:96px"></i>';	
+                $image = '<i class="fa fa-gg fa-5x"></i>';	
                 echo "<div class='subfolder border shadowX'>" .
 			        Html::a( $image ."<p>Новий товар</p><br>" , ["",] , $options = ["title" => "Add new product",]) . 
 		            "</div>";
